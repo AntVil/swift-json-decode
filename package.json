@@ -12,7 +12,7 @@
   "author": {
     "name": "AntVil"
   },
-  "icon": "resources/open-preview-dark",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.81.0"
   },
