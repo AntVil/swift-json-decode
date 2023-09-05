@@ -2,6 +2,10 @@
   "name": "swift-json-decode",
   "displayName": "swift-json-decode",
   "description": "A code generator tool for decoding json in swift.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntVil/swift-json-decode"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.81.0"
