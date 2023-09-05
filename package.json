@@ -1,5 +1,6 @@
 {
   "name": "swift-json-decode",
+  "publisher": "AntVil",
   "displayName": "swift-json-decode",
   "description": "A code generator tool for decoding json in swift.",
   "repository": {
