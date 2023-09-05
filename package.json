@@ -22,14 +22,16 @@
         "icon": {
           "dark": "./resources/open-preview-dark.svg",
           "light": "./resources/open-preview-light.svg"
-        }
+        },
+        "when": "editorLangId == json"
       }
     ],
     "menus": {
       "editor/title": [
         {
           "command": "swift-json-decode.convertToSwiftDecodable",
-          "group": "navigation"
+          "group": "navigation",
+          "when": "editorLangId == json"
         }
       ]
     }
