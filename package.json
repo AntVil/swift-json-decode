@@ -7,15 +7,27 @@
     "url": "https://github.com/AntVil/swift-json-decode"
   },
   "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "AntVil"
+  },
+  "icon": "resources/open-preview-dark",
   "engines": {
     "vscode": "^1.81.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Programming Languages"
   ],
   "activationEvents": [
     "workspaceContains:**/*.json",
     "onLanguage:json"
+  ],
+  "keywords": [
+    "swift",
+    "converter",
+    "json",
+    "conversion"
   ],
   "main": "./extension.js",
   "contributes": {
