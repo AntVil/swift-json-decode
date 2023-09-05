@@ -1,4 +1,4 @@
-# swift-json-decode README
+# swift-json-decode
 
 This extension can generate the decodable to a given json.
 
