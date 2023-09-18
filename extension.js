@@ -69,7 +69,7 @@ class SwiftDecodable {
 				return ["Int", null];
 			}
 		} else if (typeof value === "boolean") {
-			return ["Boolean", null];
+			return ["Bool", null];
 		} else if (typeof value === "object") {
 			if (Array.isArray(value)) {
 				let [type, struct] = this.getType(property, value[0]);
